@@ -1,0 +1,42 @@
+name: Themes
+
+on:
+  push:
+    branches:
+      - master
+      - develop
+      - hotfix/**
+      - feature/**
+      - renovate/**
+    paths:
+      - .github/workflows/themes.yaml
+      - themes/**
+
+jobs:
+  deploy-pages:
+    name: Deploy Pages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+      - name: Install Dependencies
+        run: yarn install --network-timeout 86400000
+      - name: Build Production
+        run: ./scripts/build.sh
+      - name: Export Static
+        run: ./scripts/export.sh
+      - name: Copy to Pages
+        run: ./scripts/copy.sh
+      - name: Add .nojekyll file
+        run: touch ./dist/.nojekyll
+      - name: Deploy Pages
+        uses: JamesIves/github-pages-deploy-action@v4.4.1
+        with:
+          token: ${{ secrets.GHP_TOKEN }}
+          branch: gh-pages
+          folder: dist
+          clean: true
