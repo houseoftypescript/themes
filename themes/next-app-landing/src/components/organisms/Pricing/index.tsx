@@ -2,7 +2,7 @@ import GradientButton from '@/components/atoms/Button';
 import Heading from '@/components/atoms/Heading';
 import Container from '@mui/material/Container';
 
-const Pricing: React.FC = () => {
+export const Pricing: React.FC = () => {
   return (
     <section id="pricing" className="bg-gray-100 py-8 md:py-16">
       <Container>

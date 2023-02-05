@@ -4,7 +4,7 @@ import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
 import Image from 'next/image';
 
-const CTA: React.FC = () => {
+export const CTA: React.FC = () => {
   return (
     <section id="cta">
       <Image src={waveTop} alt="wave-top" className="w-full" />

@@ -27,4 +27,7 @@ export const Message: React.FC = () => {
   );
 };
 
+Message.displayName = 'Message';
+Message.defaultProps = {};
+
 export default Message;

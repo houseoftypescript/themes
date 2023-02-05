@@ -7,7 +7,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import Link from 'next/link';
 
-const Social: React.FC = () => {
+export const Social: React.FC = () => {
   return (
     <div className="mx-auto mt-6 flex w-4/5 flex-wrap items-center justify-between pb-16 lg:w-full lg:pb-0">
       <Link className="link" href="#" data-tippy-content="@facebook_handle">

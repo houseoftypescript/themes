@@ -2,7 +2,7 @@ import content from '@/content';
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 
-const Profile: React.FC = () => {
+export const Profile: React.FC = () => {
   return (
     <div className="dark:text-white">
       <h1 className="pt-8 text-3xl font-bold lg:pt-0">{content.seo.title}</h1>

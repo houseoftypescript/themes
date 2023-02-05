@@ -1,15 +1,15 @@
+import background from '@/assets/background.jpeg';
+import profile from '@/assets/profile.jpeg';
+import Profile from '@/components/organisms/Profile';
+import Social from '@/components/organisms/Social';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 import LightModeIcon from '@mui/icons-material/LightMode';
 import Button from '@mui/material/Button';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
-import background from '../../assets/background.jpeg';
-import profile from '../../assets/profile.jpeg';
-import Profile from '../organisms/Profile';
-import Social from '../organisms/Social';
 
-const HomeTemplate: React.FC = () => {
+export const HomeTemplate: React.FC = () => {
   const [darkMode, setDarkMode] = useState(false);
 
   return (

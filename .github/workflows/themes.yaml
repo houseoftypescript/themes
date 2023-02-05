@@ -25,6 +25,8 @@ jobs:
           node-version: 18.x
       - name: Install Dependencies
         run: yarn install --network-timeout 86400000
+      - name: Unit Tests
+        run: ./scripts/test.sh
       - name: Build Production
         run: ./scripts/build.sh
       - name: Export Static

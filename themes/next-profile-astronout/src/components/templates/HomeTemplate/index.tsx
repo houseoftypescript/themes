@@ -7,7 +7,7 @@ import Projects from '../../organisms/Projects';
 import Quote from '../../organisms/Quote';
 import Skills from '../../organisms/Skills';
 
-export const Home: React.FC = () => {
+export const HomeTemplate: React.FC = () => {
   return (
     <>
       <Navbar />
@@ -21,4 +21,4 @@ export const Home: React.FC = () => {
   );
 };
 
-export default Home;
+export default HomeTemplate;

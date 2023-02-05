@@ -6,7 +6,9 @@ import Drawer from '@mui/material/Drawer';
 import { useState } from 'react';
 import { Link as ScrollLink } from 'react-scroll';
 
-const MobileMenu: React.FC<{ textColor: string }> = ({ textColor = '' }) => {
+export const MobileMenu: React.FC<{ textColor: string }> = ({
+  textColor = '',
+}) => {
   const [open, setOpen] = useState(false);
   return (
     <>

@@ -2,7 +2,7 @@ import Container from '@mui/material/Container';
 import React from 'react';
 import background from '../../../assets/images/background/quote.jpg';
 
-const Quote: React.FC = () => {
+export const Quote: React.FC = () => {
   return (
     <div
       className="bg-cover bg-fixed bg-center bg-no-repeat"

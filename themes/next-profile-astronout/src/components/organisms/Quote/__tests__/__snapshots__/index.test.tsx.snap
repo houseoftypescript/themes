@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote to match snapshot 1`] = `
+<div>
+  <div
+    class="bg-cover bg-fixed bg-center bg-no-repeat"
+    style="background-image: url(/img.jpg);"
+  >
+    <div
+      class="bg-gray-900/75 py-32"
+    >
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthLg font-spirax text-center text-white css-1oqqzyl-MuiContainer-root"
+      >
+        <h1
+          class="mb-8 text-4xl"
+        >
+          Shoot for the moon. Even if you miss, you'll land among the stars
+        </h1>
+        <p
+          class="text-xl"
+        >
+          - Internet -
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

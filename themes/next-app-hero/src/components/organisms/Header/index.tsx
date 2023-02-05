@@ -4,7 +4,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import Container from '@mui/material/Container';
 import Link from 'next/link';
 
-const Header: React.FC = () => {
+export const Header: React.FC = () => {
   return (
     <div className="w-full py-8">
       <Container>
@@ -37,5 +37,8 @@ const Header: React.FC = () => {
     </div>
   );
 };
+
+Header.displayName = 'Header';
+Header.defaultProps = {};
 
 export default Header;

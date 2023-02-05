@@ -6,7 +6,7 @@ import logo from '../../../assets/images/astronout.png';
 import background from '../../../assets/images/background/hero.jpg';
 import content from '../../../content';
 
-export const Header: React.FC = () => {
+export const Hero: React.FC = () => {
   return (
     <div
       id="hero"
@@ -52,4 +52,4 @@ export const Header: React.FC = () => {
   );
 };
 
-export default Header;
+export default Hero;

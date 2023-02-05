@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DesktopMenu to match snapshot 1`] = `
+<div>
+  <div
+    class="flex items-center gap-8"
+  >
+    <a
+      class="cursor-pointer font-medium capitalize tracking-wider"
+    >
+      Services
+    </a>
+    <a
+      class="cursor-pointer font-medium capitalize tracking-wider"
+    >
+      projects
+    </a>
+    <a
+      class="cursor-pointer font-medium capitalize tracking-wider"
+    >
+      pricing
+    </a>
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-11ogog7-MuiButtonBase-root-MuiButton-root"
+      tabindex="0"
+      type="button"
+    >
+      Download
+      <span
+        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</div>
+`;

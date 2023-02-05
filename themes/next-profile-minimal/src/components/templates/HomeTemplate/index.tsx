@@ -1,10 +1,10 @@
-import { useTheme } from '../../../context/ThemeProvider';
-import Hero from '../../organisms/Hero';
-import Navbar from '../../organisms/Navbar';
-import Portfolio from '../../organisms/Portfolio';
-import Services from '../../organisms/Services';
+import Hero from '@/components/organisms/Hero';
+import Navbar from '@/components/organisms/Navbar';
+import Portfolio from '@/components/organisms/Portfolio';
+import Services from '@/components/organisms/Services';
+import { useTheme } from '@/context/ThemeProvider';
 
-const HomeTemplate: React.FC = () => {
+export const HomeTemplate: React.FC = () => {
   const { darkMode } = useTheme();
 
   return (

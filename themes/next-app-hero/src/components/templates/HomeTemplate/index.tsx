@@ -1,10 +1,10 @@
+import background from '@/assets/background.svg';
+import devices from '@/assets/devices.svg';
 import Footer from '@/components/organisms/Footer';
 import Header from '@/components/organisms/Header';
 import Message from '@/components/organisms/Message';
-import Image from 'next/image';
-import background from '../../../assets/background.svg';
-import devices from '../../../assets/devices.svg';
 import { Container } from '@mui/material';
+import Image from 'next/image';
 
 export const HomeTemplate: React.FC = () => {
   return (
@@ -35,5 +35,8 @@ export const HomeTemplate: React.FC = () => {
     </div>
   );
 };
+
+HomeTemplate.displayName = 'HomeTemplate';
+HomeTemplate.defaultProps = {};
 
 export default HomeTemplate;

@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar to match snapshot 1`] = `
+<div>
+  <nav
+    class="fixed z-50 w-full py-8 text-white transition-all duration-200 "
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+    >
+      <div
+        class="flex items-center justify-between"
+      >
+        <a>
+          <h1
+            class="cursor-pointer text-4xl font-semibold uppercase"
+          >
+            Hieu
+          </h1>
+        </a>
+        <div
+          class="flex items-center gap-8"
+        >
+          <a
+            class="cursor-pointer text-xl capitalize transition-all hover:text-2xl"
+          >
+            skills
+          </a>
+          <a
+            class="cursor-pointer text-xl capitalize transition-all hover:text-2xl"
+          >
+            projects
+          </a>
+          <a
+            class="cursor-pointer text-xl capitalize transition-all hover:text-2xl"
+          >
+            contact
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+`;

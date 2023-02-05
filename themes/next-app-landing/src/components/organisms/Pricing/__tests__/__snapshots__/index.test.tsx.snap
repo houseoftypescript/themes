@@ -1,0 +1,227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pricing to match snapshot 1`] = `
+<div>
+  <section
+    class="bg-gray-100 py-8 md:py-16"
+    id="pricing"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+    >
+      <div
+        class="mb-8 flex flex-col items-center justify-center"
+      >
+        <h1
+          class="mb-2 w-full text-center text-5xl font-bold leading-tight text-white text-gray-900"
+        >
+          Pricing
+        </h1>
+        <div
+          class="w-full"
+        >
+          <div
+            class="gradient mx-auto h-1 w-64 rounded-t bg-white py-0 opacity-25"
+          />
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-1 gap-8 md:grid-cols-3"
+      >
+        <div
+          class="col-span-1"
+        >
+          <div
+            class="rounded border bg-white shadow"
+          >
+            <div
+              class="py-8 text-center"
+            >
+              <h2
+                class="text-3xl font-bold text-gray-700"
+              >
+                Free
+              </h2>
+            </div>
+            <div
+              class="gradient h-1 w-full"
+            />
+            <div
+              class="text-gray-500"
+            >
+              <div
+                class="border-b py-4 text-center capitalize"
+              >
+                feature 1
+              </div>
+              <div
+                class="border-b py-4 text-center capitalize"
+              >
+                feature 2
+              </div>
+              <div
+                class="border-b py-4 text-center capitalize"
+              >
+                feature 3
+              </div>
+              <div
+                class="border-b py-4 text-center capitalize"
+              >
+                feature 4
+              </div>
+            </div>
+            <div
+              class="flex flex-col gap-4 py-8"
+            >
+              <h3
+                class="text-center text-3xl text-gray-900"
+              >
+                $
+                0
+              </h3>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium mx-auto css-1m0onwi-MuiButtonBase-root-MuiButton-root"
+                tabindex="0"
+                type="button"
+              >
+                Download
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-span-1"
+        >
+          <div
+            class="rounded border bg-white shadow"
+          >
+            <div
+              class="py-8 text-center"
+            >
+              <h2
+                class="text-3xl font-bold text-gray-700"
+              >
+                Basic
+              </h2>
+            </div>
+            <div
+              class="gradient h-1 w-full"
+            />
+            <div
+              class="text-gray-500"
+            >
+              <div
+                class="border-b py-4 text-center capitalize"
+              >
+                feature 5
+              </div>
+              <div
+                class="border-b py-4 text-center capitalize"
+              >
+                feature 6
+              </div>
+              <div
+                class="border-b py-4 text-center capitalize"
+              >
+                feature 7
+              </div>
+              <div
+                class="border-b py-4 text-center capitalize"
+              >
+                feature 8
+              </div>
+            </div>
+            <div
+              class="flex flex-col gap-4 py-8"
+            >
+              <h3
+                class="text-center text-3xl text-gray-900"
+              >
+                $
+                9.99
+              </h3>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium mx-auto css-1m0onwi-MuiButtonBase-root-MuiButton-root"
+                tabindex="0"
+                type="button"
+              >
+                Download
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-span-1"
+        >
+          <div
+            class="rounded border bg-white shadow"
+          >
+            <div
+              class="py-8 text-center"
+            >
+              <h2
+                class="text-3xl font-bold text-gray-700"
+              >
+                Pro
+              </h2>
+            </div>
+            <div
+              class="gradient h-1 w-full"
+            />
+            <div
+              class="text-gray-500"
+            >
+              <div
+                class="border-b py-4 text-center capitalize"
+              >
+                feature 9
+              </div>
+              <div
+                class="border-b py-4 text-center capitalize"
+              >
+                feature 10
+              </div>
+              <div
+                class="border-b py-4 text-center capitalize"
+              >
+                feature 11
+              </div>
+              <div
+                class="border-b py-4 text-center capitalize"
+              >
+                feature 12
+              </div>
+            </div>
+            <div
+              class="flex flex-col gap-4 py-8"
+            >
+              <h3
+                class="text-center text-3xl text-gray-900"
+              >
+                $
+                19.99
+              </h3>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium mx-auto css-1m0onwi-MuiButtonBase-root-MuiButton-root"
+                tabindex="0"
+                type="button"
+              >
+                Download
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

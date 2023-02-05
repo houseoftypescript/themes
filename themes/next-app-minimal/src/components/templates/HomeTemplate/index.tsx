@@ -4,7 +4,7 @@ import Footer from '@/components/organisms/Footer';
 import Hero from '@/components/organisms/Hero';
 import { content } from '@/content';
 
-export const LandingTemplate: React.FC = () => (
+export const HomeTemplate: React.FC = () => (
   <div className="text-gray-600 antialiased">
     <Hero
       title={content.hero.title}
@@ -21,4 +21,4 @@ export const LandingTemplate: React.FC = () => (
   </div>
 );
 
-export default LandingTemplate;
+export default HomeTemplate;

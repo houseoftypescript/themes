@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Project to match snapshot 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root border shadow css-pwngrv-MuiPaper-root-MuiCard-root"
+  >
+    <div
+      class="MuiCardContent-root px-8 pt-8 pb-4 css-46bh2p-MuiCardContent-root"
+    >
+      <p
+        class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom css-16m3jxf-MuiTypography-root"
+      >
+        Project #
+        1
+      </p>
+      <div
+        class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+      >
+        title
+      </div>
+      <p
+        class="MuiTypography-root MuiTypography-body1 css-9eg9l8-MuiTypography-root"
+      >
+        subtitle
+      </p>
+      <p
+        class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+      >
+        description
+      </p>
+    </div>
+    <div
+      class="MuiCardActions-root MuiCardActions-spacing px-8 pb-8 pt-4 css-1t6e9jv-MuiCardActions-root"
+    >
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1m0onwi-MuiButtonBase-root-MuiButton-root"
+        tabindex="0"
+        type="button"
+      >
+        Learn More
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

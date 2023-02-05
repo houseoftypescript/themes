@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 
-const Heading: React.FC<{
+export const Heading: React.FC<{
   gradient?: boolean;
   children?: ReactNode;
   className?: string;

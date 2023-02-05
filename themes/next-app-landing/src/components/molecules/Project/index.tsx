@@ -4,7 +4,7 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 
-const Project: React.FC<{
+export const Project: React.FC<{
   index: number;
   title: string;
   subtitle: string;

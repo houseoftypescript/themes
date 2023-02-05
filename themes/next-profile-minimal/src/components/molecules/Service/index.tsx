@@ -1,6 +1,6 @@
 import Image, { StaticImageData } from 'next/image';
 
-const Service: React.FC<{
+export const Service: React.FC<{
   image: string | StaticImageData;
   title: string;
   description: string;
