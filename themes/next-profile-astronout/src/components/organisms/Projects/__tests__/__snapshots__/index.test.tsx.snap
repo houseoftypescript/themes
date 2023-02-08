@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Projects to match snapshot 1`] = `
+<div>
+  <div
+    class="bg-gray-900 py-32"
+    id="projects"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+    >
+      <div
+        class="text-center text-white"
+      >
+        <h1
+          class="mb-8 text-4xl font-bold"
+        >
+          Projects
+        </h1>
+        <h2
+          class="mx-auto mb-16 max-w-3xl text-gray-500"
+        >
+          lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, cupiditate! Molestiae placeat architecto nihil obcaecati illum minima incidunt dolores? Officia consectetur optio non totam cum eos soluta ipsa et quod.
+        </h2>
+      </div>
+      <div
+        class="grid grid-cols-1 gap-8 md:grid-cols-3"
+      >
+        <div
+          class="col-span-1"
+        >
+          <a
+            href="https://ezgames.cc/"
+            target="_blank"
+          >
+            <div
+              class="aspect-video overflow-hidden rounded border border-gray-900 bg-cover bg-center bg-no-repeat shadow"
+              style="background-image: url(/img.jpg);"
+            />
+          </a>
+        </div>
+        <div
+          class="col-span-1"
+        >
+          <a
+            href="https://footballbattle.co/"
+            target="_blank"
+          >
+            <div
+              class="aspect-video overflow-hidden rounded border border-gray-900 bg-cover bg-center bg-no-repeat shadow"
+              style="background-image: url(/img.jpg);"
+            />
+          </a>
+        </div>
+        <div
+          class="col-span-1"
+        >
+          <a
+            href=""
+            target="_blank"
+          >
+            <div
+              class="aspect-video overflow-hidden rounded border border-gray-900 bg-cover bg-center bg-no-repeat shadow"
+              style="background-image: url(/img.jpg);"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

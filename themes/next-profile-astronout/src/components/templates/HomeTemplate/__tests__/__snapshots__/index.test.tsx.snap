@@ -1,0 +1,809 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeTemplate to match snapshot 1`] = `
+<div>
+  <nav
+    class="fixed z-50 w-full py-8 text-white transition-all duration-200 "
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+    >
+      <div
+        class="flex items-center justify-between"
+      >
+        <a>
+          <h1
+            class="cursor-pointer text-4xl font-semibold uppercase"
+          >
+            Hieu
+          </h1>
+        </a>
+        <div
+          class="flex items-center gap-8"
+        >
+          <a
+            class="cursor-pointer text-xl capitalize transition-all hover:text-2xl"
+          >
+            skills
+          </a>
+          <a
+            class="cursor-pointer text-xl capitalize transition-all hover:text-2xl"
+          >
+            projects
+          </a>
+          <a
+            class="cursor-pointer text-xl capitalize transition-all hover:text-2xl"
+          >
+            contact
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div
+    class="h-screen bg-cover bg-fixed bg-center bg-no-repeat"
+    id="hero"
+    style="background-image: url(/img.jpg);"
+  >
+    <div
+      class="h-full bg-gray-900/25"
+    >
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthLg h-full css-1oqqzyl-MuiContainer-root"
+      >
+        <div
+          class="grid h-full grid-cols-1 gap-8 md:grid-cols-2"
+        >
+          <div
+            class="col-span-1"
+          >
+            <div
+              class="flex h-full items-center justify-center"
+            >
+              <div
+                class="text-white"
+              >
+                <h1
+                  class="text-4xl font-bold"
+                >
+                  Hi! I'm 
+                  Hieu
+                </h1>
+                <p
+                  class="my-4 max-w-lg"
+                >
+                  This website is build with Next.js, Tailwindcss and MUI (my front-end techstack). My back-end teckstack includes Node.js, GraphQL, Prisma, MongoDB, PostgreSQL and Supabase. I am self-learning Machine Learning.
+                </p>
+                <div
+                  class="flex items-center gap-4"
+                >
+                  <a
+                    href="https://facebook.com/hieudoanm"
+                    target="_blank"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                      data-testid="FacebookIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m13 2h-2.5A3.5 3.5 0 0 0 12 8.5V11h-2v3h2v7h3v-7h3v-3h-3V9a1 1 0 0 1 1-1h2V5z"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    href="https://twitter.com/hieudoanm"
+                    target="_blank"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                      data-testid="TwitterIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    href="https://github.com/hieudoanm"
+                    target="_blank"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                      data-testid="GitHubIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.94 0 4.21-2.57 5.13-5.04 5.4.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="relative col-span-1"
+          >
+            <div
+              class="astronout absolute right-28 hidden w-[400px] md:block"
+            >
+              <img
+                alt="astronout"
+                class="w-96"
+                data-nimg="1"
+                decoding="async"
+                height="40"
+                src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                style="color: transparent;"
+                width="40"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="h-full bg-gray-900 bg-cover bg-center bg-no-repeat py-32"
+    id="skills"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+    >
+      <div
+        class="text-center"
+      >
+        <h1
+          class="mb-8 text-4xl font-bold text-white"
+        >
+          Skills
+        </h1>
+        <h2
+          class="mx-auto mb-16 max-w-3xl text-gray-500"
+        >
+          lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, cupiditate! Molestiae placeat architecto nihil obcaecati illum minima incidunt dolores? Officia consectetur optio non totam cum eos soluta ipsa et quod.
+        </h2>
+      </div>
+      <div
+        class="relative"
+      >
+        <div
+          class="absolute -z-10"
+        >
+          <svg>
+            <defs>
+              <lineargradient
+                id="CircularProgressGradient"
+                x1="0%"
+                x2="0%"
+                y1="0%"
+                y2="100%"
+              >
+                <stop
+                  offset="0%"
+                  stop-color="#b004b0"
+                />
+                <stop
+                  offset="100%"
+                  stop-color="#38097a"
+                />
+              </lineargradient>
+            </defs>
+          </svg>
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-1 gap-8 md:grid-cols-3"
+      >
+        <div
+          class="col-span-1"
+        >
+          <div
+            class="relative"
+          >
+            <div
+              class="absolute flex h-full w-full items-center justify-center text-2xl text-white"
+            >
+              100
+              %
+            </div>
+            <span
+              aria-valuenow="100"
+              class="MuiCircularProgress-root MuiCircularProgress-determinate MuiCircularProgress-colorPrimary mx-auto block css-wsg6di-MuiCircularProgress-root"
+              role="progressbar"
+              style="width: 200px; height: 200px; transform: rotate(-90deg);"
+            >
+              <svg
+                class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+                viewBox="22 22 44 44"
+              >
+                <circle
+                  class="MuiCircularProgress-circle MuiCircularProgress-circleDeterminate css-oxts8u-MuiCircularProgress-circle"
+                  cx="44"
+                  cy="44"
+                  fill="none"
+                  r="20.2"
+                  stroke-width="3.6"
+                  style="stroke-dasharray: 126.920; stroke-dashoffset: 0.000px;"
+                />
+              </svg>
+            </span>
+          </div>
+          <p
+            class="mt-8 text-center text-white"
+          >
+            Web Development
+          </p>
+        </div>
+        <div
+          class="col-span-1"
+        >
+          <div
+            class="relative"
+          >
+            <div
+              class="absolute flex h-full w-full items-center justify-center text-2xl text-white"
+            >
+              75
+              %
+            </div>
+            <span
+              aria-valuenow="75"
+              class="MuiCircularProgress-root MuiCircularProgress-determinate MuiCircularProgress-colorPrimary mx-auto block css-wsg6di-MuiCircularProgress-root"
+              role="progressbar"
+              style="width: 200px; height: 200px; transform: rotate(-90deg);"
+            >
+              <svg
+                class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+                viewBox="22 22 44 44"
+              >
+                <circle
+                  class="MuiCircularProgress-circle MuiCircularProgress-circleDeterminate css-oxts8u-MuiCircularProgress-circle"
+                  cx="44"
+                  cy="44"
+                  fill="none"
+                  r="20.2"
+                  stroke-width="3.6"
+                  style="stroke-dasharray: 126.920; stroke-dashoffset: 31.730px;"
+                />
+              </svg>
+            </span>
+          </div>
+          <p
+            class="mt-8 text-center text-white"
+          >
+            Amazon Web Services
+          </p>
+        </div>
+        <div
+          class="col-span-1"
+        >
+          <div
+            class="relative"
+          >
+            <div
+              class="absolute flex h-full w-full items-center justify-center text-2xl text-white"
+            >
+              50
+              %
+            </div>
+            <span
+              aria-valuenow="50"
+              class="MuiCircularProgress-root MuiCircularProgress-determinate MuiCircularProgress-colorPrimary mx-auto block css-wsg6di-MuiCircularProgress-root"
+              role="progressbar"
+              style="width: 200px; height: 200px; transform: rotate(-90deg);"
+            >
+              <svg
+                class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+                viewBox="22 22 44 44"
+              >
+                <circle
+                  class="MuiCircularProgress-circle MuiCircularProgress-circleDeterminate css-oxts8u-MuiCircularProgress-circle"
+                  cx="44"
+                  cy="44"
+                  fill="none"
+                  r="20.2"
+                  stroke-width="3.6"
+                  style="stroke-dasharray: 126.920; stroke-dashoffset: 63.460px;"
+                />
+              </svg>
+            </span>
+          </div>
+          <p
+            class="mt-8 text-center text-white"
+          >
+            Machine Learning
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="bg-cover bg-fixed bg-center bg-no-repeat"
+    style="background-image: url(/img.jpg);"
+  >
+    <div
+      class="bg-gray-900/75 py-32"
+    >
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthLg font-spirax text-center text-white css-1oqqzyl-MuiContainer-root"
+      >
+        <h1
+          class="mb-8 text-4xl"
+        >
+          Shoot for the moon. Even if you miss, you'll land among the stars
+        </h1>
+        <p
+          class="text-xl"
+        >
+          - Internet -
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    class="bg-gray-900 py-32"
+    id="projects"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+    >
+      <div
+        class="text-center text-white"
+      >
+        <h1
+          class="mb-8 text-4xl font-bold"
+        >
+          Projects
+        </h1>
+        <h2
+          class="mx-auto mb-16 max-w-3xl text-gray-500"
+        >
+          lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, cupiditate! Molestiae placeat architecto nihil obcaecati illum minima incidunt dolores? Officia consectetur optio non totam cum eos soluta ipsa et quod.
+        </h2>
+      </div>
+      <div
+        class="grid grid-cols-1 gap-8 md:grid-cols-3"
+      >
+        <div
+          class="col-span-1"
+        >
+          <a
+            href="https://ezgames.cc/"
+            target="_blank"
+          >
+            <div
+              class="aspect-video overflow-hidden rounded border border-gray-900 bg-cover bg-center bg-no-repeat shadow"
+              style="background-image: url(/img.jpg);"
+            />
+          </a>
+        </div>
+        <div
+          class="col-span-1"
+        >
+          <a
+            href="https://footballbattle.co/"
+            target="_blank"
+          >
+            <div
+              class="aspect-video overflow-hidden rounded border border-gray-900 bg-cover bg-center bg-no-repeat shadow"
+              style="background-image: url(/img.jpg);"
+            />
+          </a>
+        </div>
+        <div
+          class="col-span-1"
+        >
+          <a
+            href=""
+            target="_blank"
+          >
+            <div
+              class="aspect-video overflow-hidden rounded border border-gray-900 bg-cover bg-center bg-no-repeat shadow"
+              style="background-image: url(/img.jpg);"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="bg-[linear-gradient(90deg,#b004b0,#38097a);]"
+    id="contact"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg py-32 css-1oqqzyl-MuiContainer-root"
+    >
+      <div
+        class="grid grid-cols-1 gap-8 md:grid-cols-2"
+      >
+        <div
+          class="col-span-1 hidden md:block"
+        >
+          <img
+            alt="contact"
+            class="h-full"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+        <div
+          class="col-span-1"
+        >
+          <h1
+            class="mb-8 text-4xl font-bold text-white"
+          >
+            Get In Touch
+          </h1>
+          <form
+            class="flex flex-col"
+          >
+            <div
+              class="grid grid-cols-1 gap-8 md:grid-cols-2"
+            >
+              <div
+                class="col-span-1"
+              >
+                <div
+                  class="MuiFormControl-root MuiTextField-root w-full css-dlbdp9-MuiFormControl-root-MuiTextField-root"
+                >
+                  <label
+                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root"
+                    data-shrink="false"
+                    for="firstName"
+                    id="firstName-label"
+                  >
+                    First Name
+                    <span
+                      aria-hidden="true"
+                      class="MuiFormLabel-asterisk MuiInputLabel-asterisk css-wgai2y-MuiFormLabel-asterisk"
+                    >
+                       
+                      *
+                    </span>
+                  </label>
+                  <div
+                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input MuiOutlinedInput-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+                      id="firstName"
+                      placeholder="First Name"
+                      required=""
+                      type="text"
+                      value=""
+                    />
+                    <fieldset
+                      aria-hidden="true"
+                      class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                    >
+                      <legend
+                        class="css-yjsfm1"
+                      >
+                        <span>
+                          First Name
+                           
+                          *
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-span-1"
+              >
+                <div
+                  class="MuiFormControl-root MuiTextField-root w-full css-dlbdp9-MuiFormControl-root-MuiTextField-root"
+                >
+                  <label
+                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root"
+                    data-shrink="false"
+                    for="lastName"
+                    id="lastName-label"
+                  >
+                    Last Name
+                    <span
+                      aria-hidden="true"
+                      class="MuiFormLabel-asterisk MuiInputLabel-asterisk css-wgai2y-MuiFormLabel-asterisk"
+                    >
+                       
+                      *
+                    </span>
+                  </label>
+                  <div
+                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input MuiOutlinedInput-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+                      id="lastName"
+                      placeholder="Last Name"
+                      required=""
+                      type="text"
+                      value=""
+                    />
+                    <fieldset
+                      aria-hidden="true"
+                      class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                    >
+                      <legend
+                        class="css-yjsfm1"
+                      >
+                        <span>
+                          Last Name
+                           
+                          *
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-span-1"
+              >
+                <div
+                  class="MuiFormControl-root MuiTextField-root w-full css-dlbdp9-MuiFormControl-root-MuiTextField-root"
+                >
+                  <label
+                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root"
+                    data-shrink="false"
+                    for="emailAddress"
+                    id="emailAddress-label"
+                  >
+                    Email Address
+                    <span
+                      aria-hidden="true"
+                      class="MuiFormLabel-asterisk MuiInputLabel-asterisk css-wgai2y-MuiFormLabel-asterisk"
+                    >
+                       
+                      *
+                    </span>
+                  </label>
+                  <div
+                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input MuiOutlinedInput-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+                      id="emailAddress"
+                      placeholder="Email Address"
+                      required=""
+                      type="email"
+                      value=""
+                    />
+                    <fieldset
+                      aria-hidden="true"
+                      class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                    >
+                      <legend
+                        class="css-yjsfm1"
+                      >
+                        <span>
+                          Email Address
+                           
+                          *
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-span-1"
+              >
+                <div
+                  class="MuiFormControl-root MuiTextField-root w-full css-dlbdp9-MuiFormControl-root-MuiTextField-root"
+                >
+                  <label
+                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root"
+                    data-shrink="false"
+                    for="phoneNumber"
+                    id="phoneNumber-label"
+                  >
+                    Phone Number
+                    <span
+                      aria-hidden="true"
+                      class="MuiFormLabel-asterisk MuiInputLabel-asterisk css-wgai2y-MuiFormLabel-asterisk"
+                    >
+                       
+                      *
+                    </span>
+                  </label>
+                  <div
+                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input MuiOutlinedInput-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+                      id="phoneNumber"
+                      placeholder="Phone Number"
+                      required=""
+                      type="tel"
+                      value=""
+                    />
+                    <fieldset
+                      aria-hidden="true"
+                      class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                    >
+                      <legend
+                        class="css-yjsfm1"
+                      >
+                        <span>
+                          Phone Number
+                           
+                          *
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-span-1 md:col-span-2"
+              >
+                <div
+                  class="MuiFormControl-root MuiTextField-root w-full css-dlbdp9-MuiFormControl-root-MuiTextField-root"
+                >
+                  <label
+                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root"
+                    data-shrink="false"
+                    for="message"
+                    id="message-label"
+                  >
+                    Message
+                    <span
+                      aria-hidden="true"
+                      class="MuiFormLabel-asterisk MuiInputLabel-asterisk css-wgai2y-MuiFormLabel-asterisk"
+                    >
+                       
+                      *
+                    </span>
+                  </label>
+                  <div
+                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-multiline css-dpjnhs-MuiInputBase-root-MuiOutlinedInput-root"
+                  >
+                    <textarea
+                      aria-invalid="false"
+                      class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline css-1sqnrkk-MuiInputBase-input-MuiOutlinedInput-input"
+                      id="message"
+                      required=""
+                      rows="4"
+                      style="height: 0px; overflow: hidden;"
+                    />
+                    <textarea
+                      aria-hidden="true"
+                      class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline css-1sqnrkk-MuiInputBase-input-MuiOutlinedInput-input"
+                      readonly=""
+                      style="visibility: hidden; position: absolute; overflow: hidden; height: 0px; top: 0px; left: 0px; transform: translateZ(0); padding: 0px; width: 100%;"
+                      tabindex="-1"
+                    />
+                    <fieldset
+                      aria-hidden="true"
+                      class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                    >
+                      <legend
+                        class="css-yjsfm1"
+                      >
+                        <span>
+                          Message
+                           
+                          *
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-span-1 md:col-span-2"
+              >
+                <button
+                  class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium w-full css-36z58x-MuiButtonBase-root-MuiButton-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  Send
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="bg-gray-900 py-8"
+    id="footer"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+    >
+      <div
+        class="flex items-center justify-between text-white"
+      >
+        <h1
+          class="text-lg uppercase"
+        >
+          © 
+          2023
+           
+          Hieu
+        </h1>
+        <div
+          class="flex cursor-pointer gap-4"
+        >
+          <a
+            href="https://facebook.com/hieudoanm"
+            target="_blank"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="FacebookIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m13 2h-2.5A3.5 3.5 0 0 0 12 8.5V11h-2v3h2v7h3v-7h3v-3h-3V9a1 1 0 0 1 1-1h2V5z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://twitter.com/hieudoanm"
+            target="_blank"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="TwitterIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://github.com/hieudoanm"
+            target="_blank"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="GitHubIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.94 0 4.21-2.57 5.13-5.04 5.4.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

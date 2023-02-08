@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer to match snapshot 1`] = `
+<div>
+  <footer
+    class="fade-in w-full py-8 text-center md:text-left"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+    >
+      <a
+        class="text-sm text-gray-500"
+        href="#"
+      >
+        © App 
+        2023
+      </a>
+    </div>
+  </footer>
+</div>
+`;

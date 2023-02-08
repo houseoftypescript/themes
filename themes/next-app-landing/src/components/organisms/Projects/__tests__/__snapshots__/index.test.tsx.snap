@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Projects to match snapshot 1`] = `
+<div>
+  <section
+    class="bg-white py-8 md:py-16"
+    id="projects"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+    >
+      <div
+        class="mb-8 flex flex-col items-center justify-center"
+      >
+        <h1
+          class="mb-2 w-full text-center text-5xl font-bold leading-tight text-white text-gray-900"
+        >
+          Projects
+        </h1>
+        <div
+          class="w-full"
+        >
+          <div
+            class="gradient mx-auto h-1 w-64 rounded-t bg-white py-0 opacity-25"
+          />
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-1 gap-8 md:grid-cols-3"
+      >
+        <div
+          class="col-span-1"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root border shadow css-pwngrv-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardContent-root px-8 pt-8 pb-4 css-46bh2p-MuiCardContent-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom css-16m3jxf-MuiTypography-root"
+              >
+                Project #
+                1
+              </p>
+              <div
+                class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+              >
+                Lorem ipsum dolor sit amet.
+              </div>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-9eg9l8-MuiTypography-root"
+              >
+                getting started
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+              </p>
+            </div>
+            <div
+              class="MuiCardActions-root MuiCardActions-spacing px-8 pb-8 pt-4 css-1t6e9jv-MuiCardActions-root"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1m0onwi-MuiButtonBase-root-MuiButton-root"
+                tabindex="0"
+                type="button"
+              >
+                Learn More
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-span-1"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root border shadow css-pwngrv-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardContent-root px-8 pt-8 pb-4 css-46bh2p-MuiCardContent-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom css-16m3jxf-MuiTypography-root"
+              >
+                Project #
+                2
+              </p>
+              <div
+                class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+              >
+                Lorem ipsum dolor sit amet.
+              </div>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-9eg9l8-MuiTypography-root"
+              >
+                getting started
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+              </p>
+            </div>
+            <div
+              class="MuiCardActions-root MuiCardActions-spacing px-8 pb-8 pt-4 css-1t6e9jv-MuiCardActions-root"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1m0onwi-MuiButtonBase-root-MuiButton-root"
+                tabindex="0"
+                type="button"
+              >
+                Learn More
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-span-1"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root border shadow css-pwngrv-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardContent-root px-8 pt-8 pb-4 css-46bh2p-MuiCardContent-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom css-16m3jxf-MuiTypography-root"
+              >
+                Project #
+                3
+              </p>
+              <div
+                class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+              >
+                Lorem ipsum dolor sit amet.
+              </div>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-9eg9l8-MuiTypography-root"
+              >
+                getting started
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+              </p>
+            </div>
+            <div
+              class="MuiCardActions-root MuiCardActions-spacing px-8 pb-8 pt-4 css-1t6e9jv-MuiCardActions-root"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1m0onwi-MuiButtonBase-root-MuiButton-root"
+                tabindex="0"
+                type="button"
+              >
+                Learn More
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

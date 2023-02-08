@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Feature to match snapshot 1`] = `
+<div>
+  <div
+    class="flex flex-wrap items-center md:flex-row-reverse"
+  >
+    <div
+      class="w-full p-6 sm:w-1/2"
+    >
+      <img
+        alt=""
+        class="w-full"
+        data-nimg="1"
+        decoding="async"
+        loading="lazy"
+        src=""
+        style="color: transparent;"
+      />
+    </div>
+    <div
+      class="w-full text-center sm:w-1/2 md:text-left"
+    >
+      <h3
+        class="text-3xl font-semibold text-gray-900"
+      >
+        title
+      </h3>
+      <div
+        class="mt-6 text-xl leading-9"
+      >
+        description
+      </div>
+    </div>
+  </div>
+</div>
+`;
