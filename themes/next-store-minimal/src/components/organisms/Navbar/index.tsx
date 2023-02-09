@@ -7,7 +7,9 @@ export const Navbar: React.FC<NavbarProps> = ({ title }) => {
     <nav>
       <Container>
         <div className="py-8">
-          <h1 className="text-center text-2xl uppercase">{title}</h1>
+          <h1 className="text-center text-xl uppercase font-medium tracking-widest">
+            {title}
+          </h1>
         </div>
       </Container>
     </nav>

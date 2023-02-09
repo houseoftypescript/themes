@@ -12,3 +12,5 @@ echo "test next-profile-card"
 yarn workspace next-profile-card test
 echo "test next-profile-minimal"
 yarn workspace next-profile-minimal test
+echo "test next-store-minimal"
+yarn workspace next-store-minimal test

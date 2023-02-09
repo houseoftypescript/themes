@@ -1,3 +1,4 @@
+import Heading from '@/components/atoms/Heading';
 import Container from '@mui/material/Container';
 
 export const About: React.FC = () => {
@@ -5,7 +6,7 @@ export const About: React.FC = () => {
     <section id="about" className="pb-8 md:pb-16">
       <Container>
         <div className="flex flex-col gap-8">
-          <h1 className="text-2xl">About</h1>
+          <Heading>About</Heading>
           <p className="text-gray-700">
             Lorem ipsum dolor sit amet, consectetur random link adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

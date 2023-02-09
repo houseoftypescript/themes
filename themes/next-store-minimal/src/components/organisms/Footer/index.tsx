@@ -2,24 +2,23 @@ import { Facebook, Instagram, Twitter } from '@mui/icons-material';
 import Container from '@mui/material/Container';
 import Link from 'next/link';
 
-export type FooterProps = {};
+export type FooterProps = { title: string };
 
-export const Footer: React.FC<FooterProps> = () => {
+export const Footer: React.FC<FooterProps> = ({ title }) => {
   return (
     <footer>
       <div className="py-8 border-t">
         <Container>
           <div className="flex justify-between">
-            <div>&copy; {new Date().getFullYear()} Store</div>
+            <div>
+              &copy; {new Date().getFullYear()} {title}
+            </div>
             <div className="flex gap-4">
-              <Link href="#">
+              <Link href="#" target="_blank">
                 <Facebook />
               </Link>
-              <Link href="#">
+              <Link href="#" target="_blank">
                 <Instagram />
-              </Link>
-              <Link href="#">
-                <Twitter />
               </Link>
             </div>
           </div>

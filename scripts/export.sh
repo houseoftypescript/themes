@@ -12,3 +12,5 @@ echo "next-profile-card"
 yarn workspace next-profile-card export
 echo "next-profile-minimal"
 yarn workspace next-profile-minimal export
+echo "next-store-minimal"
+yarn workspace next-store-minimal export

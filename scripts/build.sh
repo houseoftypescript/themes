@@ -12,3 +12,5 @@ echo "build next-profile-card"
 yarn workspace next-profile-card build
 echo "build next-profile-minimal"
 yarn workspace next-profile-minimal build
+echo "build next-store-minimal"
+yarn workspace next-store-minimal build

@@ -14,3 +14,5 @@ echo "copy next-profile-card"
 cp -r ./themes/next-profile-card/out ./dist/next-profile-card
 echo "copy next-profile-minimal"
 cp -r ./themes/next-profile-minimal/out ./dist/next-profile-minimal
+echo "copy next-store-minimal"
+cp -r ./themes/next-store-minimal/out ./dist/next-store-minimal
