@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Twitter } from '@mui/icons-material';
+import { Facebook, Instagram } from '@mui/icons-material';
 import Container from '@mui/material/Container';
 import Link from 'next/link';
 
