@@ -1,4 +1,4 @@
-name: Themes
+name: CD
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
       - feature/**
       - renovate/**
     paths:
-      - .github/workflows/themes.yaml
+      - .github/workflows/cd.yaml
       - themes/**
 
 jobs:
