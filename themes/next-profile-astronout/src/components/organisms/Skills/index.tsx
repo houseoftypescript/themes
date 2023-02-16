@@ -43,21 +43,22 @@ export const Skills: React.FC = () => {
           ].map(({ id, value, name }) => {
             return (
               <div key={id} className="col-span-1">
-                <div className="relative">
+                <div className="relative" style={{ paddingBottom: '100%' }}>
                   <div className="absolute flex h-full w-full items-center justify-center text-2xl text-white">
                     {value}%
                   </div>
-                  <CircularProgress
-                    variant="determinate"
-                    value={value}
-                    size={200}
-                    className="mx-auto block"
-                    sx={{
-                      'svg circle': {
-                        stroke: 'url(#CircularProgressGradient)',
-                      },
-                    }}
-                  />
+                  <div className="absolute flex h-full w-full items-center justify-center">
+                    <CircularProgress
+                      variant="determinate"
+                      value={value}
+                      size={200}
+                      sx={{
+                        'svg circle': {
+                          stroke: 'url(#CircularProgressGradient)',
+                        },
+                      }}
+                    />
+                  </div>
                 </div>
                 <p className="mt-8 text-center text-white">{name}</p>
               </div>
