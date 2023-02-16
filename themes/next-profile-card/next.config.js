@@ -4,7 +4,7 @@ const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
   reactStrictMode: true,
-  assetPrefix: isProd ? '/themes/next-profile-card/' : '/',
+  assetPrefix: isProd ? '/themes/next-profile-card/' : undefined,
   images: { unoptimized: true },
 };
 
