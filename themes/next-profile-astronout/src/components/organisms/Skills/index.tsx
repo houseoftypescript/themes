@@ -35,7 +35,6 @@ export const Skills: React.FC = () => {
             </svg>
           </div>
         </div>
-
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           {[
             { id: 1, value: 100, name: 'Web Development' },

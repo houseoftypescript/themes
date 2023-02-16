@@ -1,10 +1,10 @@
+import logo from '@/assets/images/astronout.png';
+import background from '@/assets/images/background/hero.jpg';
+import content from '@/content';
 import { Container } from '@mui/material';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import logo from '../../../assets/images/astronout.png';
-import background from '../../../assets/images/background/hero.jpg';
-import content from '../../../content';
 
 export const Hero: React.FC = () => {
   return (
