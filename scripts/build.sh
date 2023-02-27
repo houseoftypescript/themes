@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Gatsby
+echo "build gatsby-app-hero"
+yarn workspace gatsby-app-hero build
+# Next.js
 echo "build next-app-hero"
 yarn workspace next-app-hero build
 echo "build next-app-landing"

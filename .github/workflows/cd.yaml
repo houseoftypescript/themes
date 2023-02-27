@@ -9,8 +9,8 @@ on:
       - themes/**
 
 jobs:
-  deploy-pages:
-    name: Deploy Pages
+  cd:
+    name: CD
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

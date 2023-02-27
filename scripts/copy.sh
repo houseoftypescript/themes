@@ -2,6 +2,10 @@
 
 echo "create dist"
 mkdir ./dist
+# Gatsby
+echo "copy gatsby/app-hero"
+cp -r ./themes/gatsby/app-hero/public ./dist/gatsby/app-hero
+# Next.js
 echo "copy next/app-hero"
 cp -r ./themes/next/app-hero/out ./dist/next/app-hero
 echo "copy next/app-landing"
