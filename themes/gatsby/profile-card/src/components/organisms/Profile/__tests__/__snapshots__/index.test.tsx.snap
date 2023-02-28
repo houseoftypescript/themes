@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile to match snapshot 1`] = `
+<div>
+  <div
+    class="dark:text-white"
+  >
+    <h1
+      class="pt-8 text-3xl font-bold lg:pt-0"
+    >
+      Hieu Doan
+    </h1>
+    <div
+      class="mx-auto w-full border-b-2 border-sky-500 pt-3 opacity-25 lg:mx-0"
+    />
+    <p
+      class="flex items-center justify-center pt-4 text-base font-bold lg:justify-start"
+    >
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium mr-4 fill-current text-sky-700 css-i4bv87-MuiSvgIcon-root"
+        data-testid="BusinessCenterIcon"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M10 16v-1H3.01L3 19c0 1.11.89 2 2 2h14c1.11 0 2-.89 2-2v-4h-7v1h-4zm10-9h-4.01V5l-2-2h-4l-2 2v2H4c-1.1 0-2 .9-2 2v3c0 1.11.89 2 2 2h6v-2h4v2h6c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zm-6 0h-4V5h4v2z"
+        />
+      </svg>
+      Full-stack Developer
+    </p>
+    <p
+      class="flex items-center justify-center pt-2 text-xs text-gray-600 lg:justify-start lg:text-sm"
+    >
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium mr-4 fill-current text-sky-700 css-i4bv87-MuiSvgIcon-root"
+        data-testid="LocationOnIcon"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+        />
+      </svg>
+      Ho Chi Minh City
+    </p>
+    <p
+      class="pt-8 text-sm"
+    >
+      Totally optional short description about yourself, what you do and so on.
+    </p>
+  </div>
+</div>
+`;

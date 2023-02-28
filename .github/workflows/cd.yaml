@@ -30,11 +30,11 @@ jobs:
       - name: Copy to Pages
         run: ./scripts/copy.sh
       - name: Add .nojekyll file
-        run: touch ./dist/.nojekyll
+        run: touch ./pages/.nojekyll
       - name: Deploy Pages
         uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
           token: ${{ secrets.GHP_TOKEN }}
           branch: gh-pages
-          folder: dist
+          folder: pages
           clean: true

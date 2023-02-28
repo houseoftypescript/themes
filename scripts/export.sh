@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Gatsby
-echo "build gatsby-app-hero"
-yarn workspace gatsby-app-hero export
 # Next.js
 echo "next-app-hero"
 yarn workspace next-app-hero export

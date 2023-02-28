@@ -3,6 +3,8 @@
 # Gatsby
 echo "build gatsby-app-hero"
 yarn workspace gatsby-app-hero build
+echo "build gatsby-profile-card"
+yarn workspace gatsby-profile-card build
 # Next.js
 echo "build next-app-hero"
 yarn workspace next-app-hero build
