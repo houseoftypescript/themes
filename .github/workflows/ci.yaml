@@ -10,7 +10,7 @@ on:
       - renovate/**
     paths:
       - .github/workflows/ci.yaml
-      - themes/**
+      - server/**
 
 jobs:
   ci:
