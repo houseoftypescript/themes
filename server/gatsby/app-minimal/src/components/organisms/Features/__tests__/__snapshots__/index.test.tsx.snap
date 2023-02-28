@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Features to match snapshot 1`] = `
+<div>
+  <section
+    class="py-8 md:py-16"
+    id="features"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+    >
+      <div
+        class="mx-auto flex max-w-3xl flex-col gap-4 text-center"
+      >
+        <h1
+          class="text-4xl font-bold text-gray-900"
+        >
+          title
+        </h1>
+        <p
+          class="text-xl md:px-20"
+        >
+          description
+        </p>
+      </div>
+      <div
+        class="pt-8"
+      />
+    </div>
+  </section>
+</div>
+`;

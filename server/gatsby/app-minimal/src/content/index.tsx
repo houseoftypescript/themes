@@ -1,11 +1,11 @@
-import feature1 from '../assets/images/feature1.svg';
-import feature2 from '../assets/images/feature2.svg';
-import feature3 from '../assets/images/feature3.svg';
+import feature1 from '../assets/svg/feature1.svg';
+import feature2 from '../assets/svg/feature2.svg';
+import feature3 from '../assets/svg/feature3.svg';
 
 export const content = {
   site_name: 'Starter',
-  title: 'Next.js Starter',
-  description: 'Starter code for your Next.js Boilerplate with Tailwind CSS',
+  title: 'Gatsby Starter',
+  description: 'Starter code for your Gatsby Boilerplate with Tailwind CSS',
   locale: 'en',
   hero: {
     title: 'The modern landing page for',

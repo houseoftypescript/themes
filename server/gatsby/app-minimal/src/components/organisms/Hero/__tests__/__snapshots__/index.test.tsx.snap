@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hero to match snapshot 1`] = `
+<div>
+  <div
+    class="bg-gray-100"
+  >
+    <nav
+      class="py-8"
+    >
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+      >
+        <div
+          class="flex items-center justify-between"
+        >
+          <a
+            aria-current="page"
+            class="flex items-center gap-2"
+            href="/"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge text-primary-500 css-tzssek-MuiSvgIcon-root"
+              data-testid="DashboardIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"
+              />
+            </svg>
+            <span
+              class="text-2xl uppercase text-primary-500"
+            >
+              App
+            </span>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+    >
+      <div
+        class="py-16 md:py-32"
+      >
+        <header
+          class="flex flex-col gap-8 text-center"
+        >
+          <h1
+            class="whitespace-pre-line text-5xl font-bold leading-hero text-gray-900"
+          >
+            title
+            <br />
+            <span
+              class="text-primary-500"
+            >
+              subtitle
+            </span>
+          </h1>
+          <div
+            class="text-2xl"
+          >
+            description
+          </div>
+          <a
+            href="/#"
+          >
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium px-6 py-4 font-extrabold css-12vt1u-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              Download App
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </a>
+        </header>
+      </div>
+    </div>
+  </div>
+</div>
+`;
