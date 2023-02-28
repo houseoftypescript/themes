@@ -1,7 +1,7 @@
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 import LightModeIcon from '@mui/icons-material/LightMode';
 import Button from '@mui/material/Button';
-import Link from 'next/link';
+import { Link } from 'gatsby';
 import React, { useState } from 'react';
 import Profile from '../components/organisms/Profile';
 import Social from '../components/organisms/Social';
@@ -30,7 +30,7 @@ export const HomeTemplate: React.FC = () => {
             />
             <Profile />
             <div className="pt-12 pb-8">
-              <Link href="mailto:hieumdoan@gmail.com">
+              <Link to="mailto:hieumdoan@gmail.com">
                 <Button variant="outlined">Get In Touch</Button>
               </Link>
             </div>
