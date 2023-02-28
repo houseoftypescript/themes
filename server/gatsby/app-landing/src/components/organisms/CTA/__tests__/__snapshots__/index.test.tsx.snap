@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CTA to match snapshot 1`] = `
+<div>
+  <section
+    id="cta"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+    >
+      <div
+        class="pb-16 md:pb-32"
+      >
+        <div
+          class="mb-8 flex flex-col items-center justify-center"
+        >
+          <h1
+            class="mb-2 w-full text-center text-5xl font-bold leading-tight text-white text-white"
+          >
+            Call To Action
+          </h1>
+          <div
+            class="w-full"
+          >
+            <div
+              class="bg-white mx-auto h-1 w-64 rounded-t bg-white py-0 opacity-25"
+            />
+          </div>
+        </div>
+        <h2
+          class="mb-8 text-center text-3xl leading-tight"
+        >
+          Main Hero Message to sell yourself!
+        </h2>
+        <div
+          class="flex"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge mx-auto css-5zr34g-MuiButtonBase-root-MuiButton-root"
+            tabindex="0"
+            type="button"
+          >
+            Download
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

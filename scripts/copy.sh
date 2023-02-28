@@ -7,6 +7,8 @@ mkdir -p ./pages/next
 # Gatsby
 echo "cp gatsby/app-hero"
 cp -r ./server/gatsby/app-hero/public ./pages/gatsby/app-hero
+echo "cp gatsby/app-landing"
+cp -r ./server/gatsby/app-hero/public ./pages/gatsby/app-landing
 echo "cp gatsby/profile-card"
 cp -r ./server/gatsby/profile-card/public ./pages/gatsby/profile-card
 # Next.js

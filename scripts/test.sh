@@ -1,9 +1,11 @@
 #!/bin/bash
 
 # Gatsby
-echo "build gatsby-app-hero"
+echo "test gatsby-app-hero"
 yarn workspace gatsby-app-hero test
-echo "build gatsby-profile-card"
+echo "test gatsby-app-landing"
+yarn workspace gatsby-app-landing test
+echo "test gatsby-profile-card"
 yarn workspace gatsby-profile-card test
 # Next.js
 echo "test next-app-hero"

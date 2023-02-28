@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Gatsby - Profile - Card",
   "main": "index.js",
-  "repository": "git@github.com:houseofmystery/themes.git",
+  "repository": "git@github.com:houseoftypescript/themes.git",
   "author": "hieudoanm <hieumdoan@gmail.com>",
   "license": "MIT",
   "private": true,

@@ -3,6 +3,8 @@
 # Gatsby
 echo "lint gatsby-app-hero"
 yarn workspace gatsby-app-hero lint
+echo "lint gatsby-app-landing"
+yarn workspace gatsby-app-landing lint
 echo "lint gatsby-profile-card"
 yarn workspace gatsby-profile-card lint
 # Next.js
