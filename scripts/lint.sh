@@ -20,8 +20,8 @@ echo "lint next-app-landing"
 yarn workspace next-app-landing lint
 echo "lint next-app-minimal"
 yarn workspace next-app-minimal lint
-echo "lint next-profile-astronout"
-yarn workspace next-profile-astronout lint
+echo "lint next-profile-astronaut"
+yarn workspace next-profile-astronaut lint
 echo "lint next-profile-card"
 yarn workspace next-profile-card lint
 echo "lint next-profile-minimal"

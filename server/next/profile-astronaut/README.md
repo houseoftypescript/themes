@@ -1,5 +1,5 @@
-# Next.js Profile Astronout
+# Next.js Profile Astronaut
 
 Built on [react-tailwind-portfolio](https://github.com/Reayhs/react-tailwind-portfolio)
 
-![astronout](docs/landing.gif)
+![astronaut](docs/landing.gif)

@@ -11,15 +11,15 @@ body {
   font-family: 'Spirax', cursive;
 }
 
-.astronout {
+.astronaut {
   position: absolute;
   z-index: 10;
-  animation: astronout 2s infinite alternate linear;
-  -webkit-animation: astronout 2s infinite alternate linear;
+  animation: astronaut 2s infinite alternate linear;
+  -webkit-animation: astronaut 2s infinite alternate linear;
   width: 400px;
 }
 
-@keyframes astronout {
+@keyframes astronaut {
   0% {
     left: 10%;
     top: 25%;

@@ -1,4 +1,4 @@
-import logo from '@/assets/images/astronout.png';
+import logo from '@/assets/images/astronaut.png';
 import background from '@/assets/images/background/hero.jpg';
 import content from '@/content';
 import { Container } from '@mui/material';
@@ -36,11 +36,11 @@ export const Hero: React.FC = () => {
               </div>
             </div>
             <div className="relative col-span-1">
-              <div className="astronout absolute right-28 hidden w-[400px] md:block">
+              <div className="astronaut absolute right-28 hidden w-[400px] md:block">
                 <Image
                   className="w-96"
                   src={logo}
-                  alt="astronout"
+                  alt="astronaut"
                   priority={true}
                 />
               </div>
