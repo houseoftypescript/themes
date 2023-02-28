@@ -5,8 +5,14 @@ echo "lint gatsby-app-hero"
 yarn workspace gatsby-app-hero lint
 echo "lint gatsby-app-landing"
 yarn workspace gatsby-app-landing lint
+echo "lint gatsby-app-minimal"
+yarn workspace gatsby-app-minimal lint
 echo "lint gatsby-profile-card"
 yarn workspace gatsby-profile-card lint
+echo "lint gatsby-profile-minimal"
+yarn workspace gatsby-profile-minimal lint
+echo "lint gatsby-store-minimal"
+yarn workspace gatsby-store-minimal lint
 # Next.js
 echo "lint next-app-hero"
 yarn workspace next-app-hero lint

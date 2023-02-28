@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-app-landing",
+  "name": "gatsby-app-minimal",
   "version": "0.0.1",
-  "description": "Gatsby - App - Landing",
+  "description": "Gatsby - App - Minimal",
   "main": "index.js",
   "repository": "git@github.com:houseoftypescript/themes.git",
   "author": "hieudoanm <hieumdoan@gmail.com>",
@@ -34,8 +34,7 @@
     "gatsby-source-filesystem": "5.7.0",
     "gatsby-transformer-sharp": "5.7.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-scroll": "1.8.9"
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@testing-library/react": "14.0.0",
@@ -47,7 +46,7 @@
     "@typescript-eslint/parser": "5.54.0",
     "autoprefixer": "10.4.13",
     "eslint": "8.35.0",
-    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react": "^7.32.2",
     "gatsby-plugin-postcss": "6.7.0",
     "gatsby-plugin-react-svg": "3.3.0",
     "gatsby-plugin-sass": "6.7.0",

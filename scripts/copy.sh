@@ -9,8 +9,14 @@ echo "cp gatsby/app-hero"
 cp -r ./server/gatsby/app-hero/public ./pages/gatsby/app-hero
 echo "cp gatsby/app-landing"
 cp -r ./server/gatsby/app-hero/public ./pages/gatsby/app-landing
+echo "cp gatsby/app-minimal"
+cp -r ./server/gatsby/app-hero/public ./pages/gatsby/app-minimal
 echo "cp gatsby/profile-card"
 cp -r ./server/gatsby/profile-card/public ./pages/gatsby/profile-card
+echo "cp gatsby/profile-minimal"
+cp -r ./server/gatsby/profile-card/public ./pages/gatsby/profile-minimal
+echo "cp gatsby/store-minimal"
+cp -r ./server/gatsby/store-card/public ./pages/gatsby/store-minimal
 # Next.js
 echo "cp next/app-hero"
 cp -r ./server/next/app-hero/out ./pages/next/app-hero
