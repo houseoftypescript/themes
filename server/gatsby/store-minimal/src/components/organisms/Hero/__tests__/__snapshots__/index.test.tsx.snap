@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hero to match snapshot 1`] = `
+<div>
+  <section
+    id="hero"
+  >
+    <div
+      class="bg-gray-100"
+      style="height: 50vh;"
+    >
+      <div
+        class="relative w-full h-full"
+      >
+        <div
+          class="absolute bg-cover bg-center w-full h-full transition-all duration-500 z-20"
+          style="background-image: url(/img.jpg);"
+        >
+          <div
+            class="flex items-center justify-center w-full h-full bg-white/25"
+          >
+            <div
+              class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+            >
+              <h1
+                class="text-2xl text-center text-gray-800"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="absolute bottom-0 mx-auto w-full z-30"
+        >
+          <div
+            class="flex justify-center py-4 gap-4 items-center"
+          >
+            <div
+              class="bg-cover bg-center w-2 h-2 transition-all duration-500 rounded-full cursor-pointer bg-black"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

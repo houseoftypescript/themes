@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product to match snapshot 1`] = `
+<div>
+  <section
+    class="py-8 md:py-16"
+    id="products"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+    >
+      <div
+        class="pb-8 md:pb-16"
+      >
+        <div
+          class="flex items-center justify-between"
+        >
+          <h1
+            class="text-2xl"
+          >
+            Products
+          </h1>
+          <div>
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium cursor-pointer css-i4bv87-MuiSvgIcon-root"
+              data-testid="SortIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 18h6v-2H3v2zM3 6v2h18V6H3zm0 7h12v-2H3v2z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-8"
+      />
+    </div>
+  </section>
+</div>
+`;
